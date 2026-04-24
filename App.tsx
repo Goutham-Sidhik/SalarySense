@@ -150,7 +150,7 @@ const App: React.FC = () => {
                 <Info size={16} /> Calculation Assumptions
               </h3>
               <ul className="space-y-1 list-disc list-inside opacity-80 text-xs sm:text-sm">
-                <li>Basic Salary = 25% of Overall CTC</li>
+                <li>Basic Salary = 50% of Overall CTC</li>
                 <li>Employer PF = 12% of Basic (Deducted from CTC)</li>
                 <li>Professional Tax = Fixed at ₹200/month</li>
                 <li>Standard Deduction = ₹75,000</li>

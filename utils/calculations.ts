@@ -46,8 +46,8 @@ export const calculateSalary = (inputs: SalaryInputs): SalaryBreakup => {
   const fixedCTC = Math.max(0, annualCTC - variablePayYearly);
 
   // 3. Components Breakup
-  // Basic is 25% of Overall CTC
-  const basicSalary = annualCTC * 0.25;
+  // Basic is 50% of Overall CTC
+  const basicSalary = annualCTC * 0.50;
 
   // PF Calculations
   const pfRate = pfRatePercentage / 100;
